@@ -1,10 +1,10 @@
 ################### [ Region variable ] #####################
 
-region_name = "ap-northeast-1"
+region_name = "us-east-1"
 
 ################### [ Region availability zones variable ] #####################
 
-az_in_region = ["ap-northeast-1a","ap-northeast-1c"]
+az_in_region = ["us-east-1a","us-east-1c"]
 
 ################### [ VPC variables ] #####################
 
@@ -70,9 +70,9 @@ egress_cidr_block_value = "0.0.0.0/0"
 
 ################### [ Instance variables ] #####################
 
-ec2_ami = ["ami-07c589821f2b353aa"]
+ec2_ami = ["ami-0440d3b780d96b29d"]
 
-ec2_type = ["t3.micro"]
+ec2_type = ["t2.micro"]
 
 public_ec2_tags = ["Server Public"]
 
